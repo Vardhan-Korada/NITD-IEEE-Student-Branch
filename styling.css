@@ -1,0 +1,282 @@
+/*img
+{
+	/*width:10%;*/
+    /*height:200%;
+    margin-top:-10px;
+}*/
+#logotitle
+{
+	font-size: 36px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-right:125px;
+}
+img
+{
+	width:90%;
+	float:left;
+	margin-left: 60px;
+	padding-bottom: 20px;
+}
+.classheading
+{
+	font-size: 2.4em;
+    letter-spacing: -1px;
+    color: #007897;
+    font-weight: normal;
+    text-align: center;
+}
+.maincontent
+{
+	line-height: 25px;
+	font-size:1.2em;
+	padding-left: 10%;
+	padding-right: 15%;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+@media screen and (max-width: 500px)
+{
+	#mainphoto
+	{
+		margin-left: -50px;
+	}
+}
+#homehr 
+{
+    width: 800px;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+#abouthr
+{
+	width: 200px;
+	border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.contacts
+{
+	padding-left: 10%;
+}
+/*.form
+{
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-right:5%;
+}
+*/form
+{
+	/*background-color: lightgreen;*/
+	padding-left: 15%;
+	padding-top: 2%;
+	margin-left: 20%;
+	margin-right: 15%;
+}
+#submit,#submitrst,#submitc
+{
+	margin-left:3%;
+}
+#reset,#resetrst,#resetc
+{
+	margin-left:28%;
+}
+#contactus,#login,#signup,#resetpassword
+{
+	padding-left: 15%;
+	color: #007897;
+}
+#contactushr
+{
+	margin-right:65%;
+	margin-left: 15%;
+	border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top:0%; 
+}
+#resetpasswordhr
+{
+	margin-right:58%;
+	margin-left: 15%;
+	border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top:0%; 
+}
+label
+{
+	font-size: 1.2em;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #007897;
+}
+#news, #ongoingevents, #upcomingevents, #pastevents
+{
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-bottom: 20%;
+}
+#n1,#n2,#n3,#n4,#oe1,#oe2,#oe3,#oe4,#ue1,#ue2,#ue3,#ue4,#pe1,#pe2,#pe3,#pe4
+{
+	background-color: #f1f1f1;
+	border:3px solid white;
+}
+#newsh2, #ongoingeventsh2, #upcomingeventsh2, #pasteventsh2
+{
+	color:#007897;
+	padding-top: 5px;
+	height: 20px;
+}
+#n1:hover,#n2:hover,#n3:hover,#n4:hover,#oe1:hover,#oe2:hover,#oe3:hover,#oe4:hover,#ue1:hover,#ue2:hover,#ue3:hover,#ue4:hover,#pe1:hover,#pe2:hover,#pe3:hover,#pe4:hover
+{
+	background-color: rgb(71, 150, 183, 0.2);
+	box-shadow: 0 0 2px rgba(25, 25, 100, 0.5);	
+	/*animation-play-state: paused;*/
+}
+#comment
+{
+	width: 50%;
+}
+.nb
+{
+	background-color:#4796b7 ;
+	float:left;
+	padding: auto auto;
+	margin:5px 5px 5px 5px;
+	color:white;
+	font-size: 14px;
+	outline:none;
+}
+.nbs
+{
+	margin-left: 100px;
+}
+.sp
+{
+	margin-left: 320px;
+}
+#loginhr
+{
+	margin-right:76%;
+	margin-left: 15%;
+	border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top:0%; 
+}
+#submit:hover,#reset:hover,#submitrst:hover,#resetrst:hover,#submitc:hover,#resetc:hover
+{
+	background-color: #A9A9A9;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#sidenav
+{
+	width:15%;
+	background-color: #f7f7f7;
+	font-size: 16px;
+}
+#post
+{
+	margin-left:20%;
+	margin-top:0%;
+	width: 65%;
+	box-shadow: 2px 2px 5px rgba(37, 37, 37, 0.5);
+	border-radius: 10px;
+	outline:none;
+}
+#title
+{
+	margin-left:20%;
+	width:25%;
+	margin-bottom: 1%;
+	box-shadow: 0.5px 0.5px 2px rgba(37, 37, 37, 0.5);
+	outline: none;
+	line-height: 30px;
+	border:none;
+	padding:0.5%;
+	border-radius: 8px;
+}
+#pbtn
+{
+	margin-left: 75%;
+	width:150px;
+	opacity:0.8;
+}
+#ptbn:hover
+{
+	opacity:1;
+	background-color: #5cb85c;
+}
+.pastpost
+{
+	/*border-color:grey;
+	border-width: 1.3px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 2px;
+	border-bottom: 2px;*/
+	border:1px solid grey;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-left:20%;
+	margin-top:2%;
+	width: 65%;
+	box-shadow: 0.5px 0.5px 2px rgba(37, 37, 37, 0.5);
+	padding: 5px 5px 5px 5px;
+}
+#pastit
+{
+	cursor: pointer;
+}
+#pastit > a
+{
+	color:black;
+}
+#forgotpassword
+{
+	margin-left: 3%;
+	margin-top: 5%;
+	line-height: 7;
+	text-decoration: underline;
+	margin-right: 22%;
+}
+#signuplink
+{
+	text-decoration: underline;
+}
+#signuphr
+{
+	margin-right:70%;
+	margin-left: 15%;
+	border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top:0%;
+}
+/*input,textarea
+{
+	border-radius: 3px;
+	border:1px solid transpa;
+}*/
